@@ -25,6 +25,7 @@
     <script src="{{asset("assets/vendor/js/helpers.js")}}"></script>
     <script src="{{asset("assets/vendor/js/template-customizer.js")}}"></script>
     <script src="{{asset("assets/js/config.js")}}"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     @livewireStyles
 </head>
 
@@ -55,6 +56,8 @@
     <script src="{{("assets/vendor/libs/%40form-validation/umd/plugin-auto-focus/index.min.js")}}"></script>
     <script src="{{("assets/js/main.js")}}"></script>
     <script src="{{("assets/js/pages-auth.js")}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
     @livewireScripts
+    @stack("script")
 </body>
 </html>
